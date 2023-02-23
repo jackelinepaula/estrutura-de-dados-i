@@ -1,5 +1,5 @@
 
-public class ex_one {
+public class NumerosInteiros {
     public static void main(String[] args){
 
         for(int i=10; i<=100; i++){

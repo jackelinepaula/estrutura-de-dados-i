@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ex_eight {
+public class Negativo {
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
         int a, b, c, d, e;
