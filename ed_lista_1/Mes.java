@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class ex_two_and_three {
+public class Mes {
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
 

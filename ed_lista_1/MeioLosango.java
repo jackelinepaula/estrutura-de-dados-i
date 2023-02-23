@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ex_twelve {
+public class MeioLosango {
     public static void main(String[] args){
         int i = 0;
         String string = "*";

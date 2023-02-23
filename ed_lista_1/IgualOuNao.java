@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class ex_five {
+public class IgualOuNao {
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
 

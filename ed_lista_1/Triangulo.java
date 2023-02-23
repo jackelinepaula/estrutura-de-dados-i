@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class ex_four{
+public class Triangulo{
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
 
