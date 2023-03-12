@@ -7,7 +7,7 @@ public class Diamante {
         //Asterisco
         int a = 1;
 
-
+        //Criando linhas
         for(i = i; i > 0; i--){
             for(int j = 1; j <= i; j++){
                 System.out.print(" ");
