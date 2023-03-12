@@ -19,6 +19,5 @@ public class IgualOuNao {
         }else{
             System.out.println("Os valores são iguais");
         }
-
     }
 }

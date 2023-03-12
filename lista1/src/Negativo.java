@@ -25,6 +25,7 @@ public class Negativo{
             }
         }
 
+
         System.out.println(countNegative+" valor(es) negativo(s)");
     }
 }

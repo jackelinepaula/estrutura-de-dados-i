@@ -19,5 +19,6 @@ public class Triangulo{
         }else{
             System.out.println("Não é um triângulo equilátero");
         }
+
     }
 }

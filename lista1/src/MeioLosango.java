@@ -14,5 +14,6 @@ public class MeioLosango {
             string = string.substring(0, string.length() - 1);
             System.out.println(string);
         }
+
     }
 }

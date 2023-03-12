@@ -17,5 +17,6 @@ public class Voto {
         }else if(idade >= 18 && idade <=70){
             System.out.println("Voto obrigatório");
         }
+
     }
 }
