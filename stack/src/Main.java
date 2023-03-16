@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args){
-//        System.out.println(mult(4, 2));
+        System.out.println(multRec(4, 3));
 
     }
 
@@ -18,16 +18,16 @@ public class Main {
     //Recurisvidade
     static double multRec(double v1, double v2){
 
+        //Enquanto o v2 não for 1, a recursividade vai acontecer
         if(v2 == 1){
             return v1;
         }
         else{
             return v1 + multRec(v1, v2-1);
 
-//            Ex com 4 e 2
-//                4 + multiRec(v1, v2-1)
-//                    4 + 4 -> (multRec(v1, v2-1))
-
+//            Ex com 4 e 3
+//                4 + multiRec(4, 2)
+//                    4 + multRec(4, 1)
 
         }
     }
