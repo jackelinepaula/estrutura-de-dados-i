@@ -1,9 +1,14 @@
 import java.io.*;
 
 public class Main {
-    public static void main(String args[]) throws IOException {
-        readArchive();
-        writeArchive();
+    public static void main(String args[]){
+        try{
+            readArchive();
+            writeArchive();
+        }catch (IOException e){
+            System.out.println("Arquivo não encontrado");
+        }
+
     }
 
     private static void writeArchive() throws IOException{
@@ -42,4 +47,5 @@ public class Main {
             linha = br.readLine();
         }
     }
+
 }
