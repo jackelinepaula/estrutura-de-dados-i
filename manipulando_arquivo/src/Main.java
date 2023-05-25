@@ -25,6 +25,7 @@ public class Main {
         bw.flush();
     }
 
+
     private static void readArchive() throws IOException {
         final String ARCHIVE_X = "C:\\Users\\FATEC ZONA LESTE\\Desktop\\samba_enredo.txt";
 
